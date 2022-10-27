@@ -1,13 +1,4 @@
-const generateHTML = (data) => {
-  const { 
-    name, 
-    location, 
-    bio, 
-    linkedinURL, 
-    githubURL 
-  } = data
 
-  return `
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -16,22 +7,22 @@ const generateHTML = (data) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-      <title>${name}'s Portfolio</title>
+      <title>Josh's Portfolio</title>
     </head>
     <body>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="" class="img-fluid" alt="Picture of ${name}" />
+            <img src="" class="img-fluid" alt="Picture of Josh" />
           </div>
           <div class="col-md-6">
-            <h1>${name}'s Portfolio</h1>
-            <h2>${location}</h2>
-            <p>${bio}</p>
-            <a href="${githubURL}">
+            <h1>Josh's Portfolio</h1>
+            <h2>Milwaukee</h2>
+            <p>lksjdf lkds fsldf kjeoij ew dasf. fekjfoisaj sdoifj sadf fdslkf sdlfj ds sldk dslf dlskfj ije dfs sd fkle fnds dslkjf ds dfslkf fldksf</p>
+            <a href="https://github.com">
               <i class="bi bi-github fs-3"></i>
             </a>
-            <a href="${linkedinURL}">
+            <a href="https://linkedin.com">
               <i class="bi bi-linkedin fs-3"></i>
             </a>
           </div>
@@ -39,7 +30,4 @@ const generateHTML = (data) => {
       </div>
     </body>
     </html>
-  `
-}
-
-export default generateHTML
+  
